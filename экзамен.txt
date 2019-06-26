@@ -1,0 +1,6 @@
+1 Шрифты
+а) Установка в систему
+б) подключение к Head
+
+https://fonts.google.com/?query=raleway
+https://fonts.google.com/?query=open+sans
