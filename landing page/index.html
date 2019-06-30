@@ -1,19 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>AXIT</title>
-    <!-- Bootstrap -->
-    <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!--end fonts-->
-    <![endif]-->
-    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/7acba9694e.js"></script>
 </head>
 <body>
 <!--###########-->
@@ -63,7 +59,7 @@
             <div class="col-md-8 home_left">
                 <img src="images/logo2.png" alt="logo_2" class="logo_2">
                 <h1 class="home_h_txt">Modern AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-                <hr>
+                <hr class="hr_white">
                 <p class="home_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                     euismod bibendum laoreet. Proin gravida dolor sit amet lacus
                     accumsan et viverra justo commodo.</p>
@@ -102,18 +98,17 @@
                 <p class="social_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenean euismod bibendum laoreet.</p>
             </div>
-
             <div class="col-md-1">
                 <a href="#" class="social__link social__link1">
                 </a>
             </div>
             <div class="col-md-1">
                 <a href="#" class="social__link social__link2">
-                    </a>
+                </a>
             </div>
             <div class="col-md-1">
                 <a href="#" class="social__link social__link3">
-                    </a>
+                </a>
             </div>
             <div class="col-md-1">
                 <a href="#" class="social__link social__link4">
@@ -222,38 +217,335 @@
 <!--Sublist section-->
 <!--###########-->
 
-<section>
-    <div class="container">
+<div class="container-fluid">
+    <div class="container sub_list">
         <div class="row">
-            <div class="col-md-6">
-                <img src="images/subsection-img.png" alt="subsection icon">
+            <div class="col-md-7">
+                <img src="./images/subsection-img.png" class="sity_img" alt="">
             </div>
-            <div class="col-md-6">
-            <h1>Sub list section</h1>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-                    accumsan et viverra justo commodo.</p>
-                <div class="col-md-2 circles">
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                </div>
-                <div class="col-md-10">
-                    <h5>Title</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aenean euismod bibendum laoreet.</p>
-                    <h5>Title</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aenean euismod bibendum laoreet.</p>
-                </div>
+            <!--  -->
+            <div class="col-md-5">
+                <h3 class="section_title">Sub list section</h3>
+                <div class="splitter splitter_orange splitter_from-start"></div>
+                <p class="section_desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    vel beatae? Dicta neque quod deserunt minus quos voluptatum quibusdam qui aperiam debitis. Qui.
+                </p>
+                <ul class="features">
+                    <li class="feature__item">
+                        <div class="feature__item__img">
+                            <div class="orange_circle">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                        </div>
+                        <div class="feature__item__text">
+                            <h4>Title</h4>
+                            <p class="section_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, voluptatum!</p>
+                        </div>
+                    </li>
+                    <li class="feature__item">
+                        <div class="feature__item__img">
+                            <div class="orange_circle">
+                                <i class="fas fa-cloud-download-alt"></i>
+                            </div>
+                        </div>
+                        <div class="feature__item__text">
+                            <h4>Title</h4>
+                            <p class="section_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, voluptatum!</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-</section>
+</div>
 
 <!--###########-->
 <!--End Sublist section-->
 <!--###########-->
+
+<!--Picture block-->
+
+<div class="container-fluid stpicture_fluid">
+    <div class="container stpicture_list">
+        <div class="row">
+            <!--  -->
+            <div class="col-md-6">
+                <h3 class="section_title">Standard Picture Section</h3>
+                <div class="splitter splitter_orange" style="margin-left: 0"></div>
+                <p class="section_desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas quas architecto autem praesentium
+                    iste libero et illum fuga odit, optio maiores. Reprehenderit, aspernatur maxime! Ipsum numquam omnis
+                    corporis earum veniam eligendi? Voluptas totam, blanditiis suscipit nobis quisquam voluptate quam?
+                </p>
+                <p class="section_desc" style="margin-top: 30px">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus esse impedit,
+                    similique minima aliquam eveniet adipisci dolorem fugiat nulla maxime.</p>
+            </div>
+            <!--  -->
+            <div class="col-md-5 col-xs-offset-1 houses_2_img ">
+                <img class="city_img" src="images/picture1.png" alt="city picture">
+            </div>
+        </div>
+    </div>
+</div>
+<!--End Picture block-->
+
+<div class="container-fluid awesome_fluid">
+    <div class="container awesome_section">
+        <h2 class="section_head">WHY THIS IS AWESOME</h2>
+        <div class="splitter splitter_orange"></div>
+        <div class="section_desc">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
+        <div class="row">
+            <ul class="awesome_list">
+                <li class="col-md-4 awesome_list__item">
+                    <div class="orange_circle orange_circle-large">
+                        <i class="far fa-lightbulb"></i>
+                    </div>
+                    <h3 class="section_title">Thoughtful Design</h3>
+                    <p class="section_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa doloribus deserunt eaque eum nostrum
+                        recusandae cumque?
+                    </p>
+                </li>
+                <li class="col-md-4 awesome_list__item">
+                    <div class="orange_circle orange_circle-large">
+                        <i class="far fa-keyboard"></i>
+                    </div>
+                    <h3 class="section_title">Well Crafted</h3>
+                    <p class="section_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa doloribus deserunt eaque eum nostrum
+                        recusandae cumque?
+                    </p>
+                </li>
+                <li class="col-md-4 awesome_list__item">
+                    <div class="orange_circle orange_circle-large">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="section_title">Easy to Customize</h3>
+                    <p class="section_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa doloribus deserunt eaque eum nostrum
+                        recusandae cumque?
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- END THIS IS AWESOME -->
+
+<!--   PRICING OPTIONS   -->
+<div style="background: #f5f5f5" class="container-fluid">
+    <div class="container pricing_section">
+        <h2 class="section_head">PRICING OPTIONS</h2>
+        <div class="splitter splitter_orange"></div>
+        <div class="section_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, facere.</div>
+        <div class="row prices_container">
+            <div class="col-md-4 price_condtion">
+                <div class="price_condition__name">Basic</div>
+
+                <div class="price_condition__price_desc">
+                    <span class="dolsign">$</span>
+                    <span class="pricenum">0</span><br>
+                    <span class="pricedesc">Free for Life</span>
+                    <div class="accent_price">Basic</div>
+                </div>
+
+                <ul class="opp_list">
+                    <li class="opp_list__item">1 gb of space</li>
+                    <li class="opp_list__item">10 gb of bandwidth</li>
+                    <li class="opp_list__item">3 websites</li>
+                    <li class="opp_list__item">Basic Customization</li>
+                    <li class="opp_list__item">wordpress integration</li>
+                    <li class="opp_list__item">email support</li>
+                </ul>
+            </div>
+            <!--  -->
+            <div class="col-md-4 price_condtion" id="prof_price_section">
+                <div class="price_condition__name">Prefessional</div>
+
+                <div class="price_condition__price_desc" id="prof_price">
+                    <span class="dolsign">$</span>
+                    <span class="pricenum">19</span><br>
+                    <span class="pricedesc">Monthly Payment</span>
+                    <div class="accent_price">OUR MOST POPULAR</div>
+                </div>
+
+                <ul class="opp_list">
+                    <li class="opp_list__item">5 gb of space</li>
+                    <li class="opp_list__item">50 gb of bandwidth</li>
+                    <li class="opp_list__item">12 websites</li>
+                    <li class="opp_list__item">Advanced Customization</li>
+                    <li class="opp_list__item">wordpress integration</li>
+                    <li class="opp_list__item">email support</li>
+                </ul>
+            </div>
+            <!--  -->
+            <div class="col-md-4 price_condtion">
+                <div class="price_condition__name">Enterprise</div>
+
+                <div class="price_condition__price_desc">
+                    <span class="dolsign">$</span>
+                    <span class="pricenum">70</span><br>
+                    <span class="pricedesc">Monthly Content</span>
+                    <div class="accent_price">Premium</div>
+                </div>
+
+                <ul class="opp_list">
+                    <li class="opp_list__item">Unlimited space</li>
+                    <li class="opp_list__item">Unlimited bandwidth</li>
+                    <li class="opp_list__item">100 websites</li>
+                    <li class="opp_list__item">Basic Customization</li>
+                    <li class="opp_list__item">wordpress integration</li>
+                    <li class="opp_list__item">24/7 customers support</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END PRICING OPTIONS -->
+
+<!--   CUSTOMERS SAYING   -->
+<div class="container-fluid">
+    <div class="container customers_feed">
+        <h2 class="section_head">WHAT OUR CUSTOMERS ARE SAYING</h2>
+        <div class="splitter splitter_orange"></div>
+        <div class="section_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, facere.</div>
+        <hr class="hr_orange">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="col-md-10 fb">
+                    <div class="fb__text section_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident quos reprehenderit voluptatibus
+                        ea excepturi magnam autem quisquam consequatur id?
+                    </div>
+                    <div class="fb__author">
+                        <img src="images/avatar.png" alt="" class="avatar">
+                        <div class="fb__author_info">
+                            <div class="name">Jeremy H.</div>
+                            <div class="role">Manager</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-md-4" style="display: flex">
+                <div class="col-md-10 fb" style="margin: 0 auto">
+                    <div class="fb__text section_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident quos reprehenderit voluptatibus
+                        ea excepturi magnam autem quisquam consequatur id?
+                    </div>
+                    <div class="fb__author">
+                        <img src="images/avatar.png" alt="" class="avatar">
+                        <div class="fb__author_info">
+                            <div class="name">Jeremy H.</div>
+                            <div class="role">Freelance</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-md-4">
+                <div class="col-md-10 fb pull-right" style="margin: 0 auto">
+                    <div class="fb__text section_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident quos reprehenderit voluptatibus
+                        ea excepturi magnam autem quisquam consequatur id?
+                    </div>
+                    <div class="fb__author">
+                        <img src="images/avatar.png" alt="avatar" class="avatar">
+                        <div class="fb__author_info">
+                            <div class="name">Jeremy H.</div>
+                            <div class="role">Photographer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CUSTOMERS SAYING -->
+
+<!--   STYLISH   -->
+<div class="container-fluid stylish_fluid">
+    <div class="container">
+        <h2 class="section_head">STYLISH AXURE DESIGN</h2>
+        <!--<div class="splitter splitter-white"></div>-->
+        <hr class="hr_white">
+        <p class="section_desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, accusantium!</p>
+        <button class="download_button center">Download</button>
+    </div>
+</div>
+<!-- END STYLISH -->
+
+<!--   CONTACT US   -->
+<div class="container_fluid">
+    <div class="container contact_us">
+        <h2 class="section_head">CONTACT US</h2>
+        <div class="splitter splitter_orange"></div>
+        <p class="section_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+            cupiditate.</p>
+
+        <div class="row">
+            <form>
+                <div class="col-md-6">
+                    <input class="form_content__input" type="text" name="name" placeholder="Name">
+                    <input class="form_content__input" type="text" name="email" placeholder="Email">
+                    <input class="form_content__input" type="text" name="subject" placeholder="Subject">
+                </div>
+                <!--  -->
+                <div class="col-md-6">
+                    <textarea class="form_content__textarea" name="body" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                <!--  -->
+                <div class="col-md-12" style="display: flex">
+                    <input class="form_content__submit" type="submit" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- END CONTACT US -->
+
+<!--   FOOTER   -->
+<div class="container-fluid footer_fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 social_media__icons icons_in_footer">
+                <div class="col-md-1">
+                    <a href="#" class="social__link social__link1 down">
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="#" class="social__link social__link2 down">
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="#" class="social__link social__link3 down">
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="#" class="social__link social__link4 down">
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="#" class="social__link social__link5 down">
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="#" class="social__link social__link6 down">
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="#" class="social__link social__link7 down">
+                    </a>
+                </div>
+            </div>
+            <p class="copyright">© 2015 Axure Themes</p>
+        </div>
+    </div>
+</div>
+<!-- END FOOTER -->
+
 <!--scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
