@@ -293,6 +293,12 @@ about_us {
     background-color: #ff8b38;
 }
 
+.about_us__button:hover {
+    background: none;
+    border: 1px solid #ff8b38;
+    color: black;
+}
+
 .about_us__img_block {
     margin-top: 40px;
 }
@@ -312,9 +318,6 @@ about_us {
     margin-left: -31px;
     margin-top: 35px;
 }
-
-
-
 
 .orange_circle {
     width: 36px;
@@ -677,8 +680,8 @@ about_us {
 }
 
 .icons_in_footer {
-    display: flex;
-    justify-content: center;
+    position: relative;
+    left: 380px;
 }
 
 .icons_in_footer > i {
